@@ -18,14 +18,15 @@ git clone https://github.com/SKYhuangjing/JFinal-Dubbo-Integration.git
 ```
 
 ### 导入Eclipse
+导入Eclipse Project
 ![导入Eclipse Project](/doc/img/import1.jpg)
-
+选择下载的项目
 ![选择下载的项目](/doc/img/import2.jpg)
-
+检查 Web Deployment
 ![检查 Web Deployment](/doc/img/import3.jpg)
-
+添加 Build Path
 ![添加 Build Path](/doc/img/import4.jpg)
-
+添加 Tomcat Server Runtime
 ![添加 Tomcat Server Runtime](/doc/img/import5.jpg)
 
 ### 启动
@@ -34,7 +35,7 @@ git clone https://github.com/SKYhuangjing/JFinal-Dubbo-Integration.git
 访问 http://localhost:8080/jfinal_web_demo/hello 查看项目是否启动正常
 
 如果提供者已经在本地运行, 则访问 http://localhost:8080/jfinal_web_demo/hello/dubbo 查看服务调用是否正常
-
+> 提供者可下载[dubbo-spring-boot-samples](https://github.com/SKYhuangjing/incubator-dubbo-spring-boot-project), 并导入idea, 然后选择 dubbo-spring-boot-samples-provider 项目 run application 启动
 
 
 
