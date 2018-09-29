@@ -16,13 +16,13 @@ public class HelloController extends Controller
         renderText("Hello JFinal World.");
     }
 
-    public void dubbo(String name)
+    public void dubbo()
     {
         if (demoService == null)
         {
             initByDefaultRegistry();
         }
-        renderJson(demoService.sayHello(name));
+        renderJson(demoService.sayHello("Sky"));
     }
 
     private synchronized void initByDefaultRegistry()
